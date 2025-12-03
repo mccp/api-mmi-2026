@@ -3,7 +3,7 @@ const router = express.Router();
 const database = require('../config/database').getDB();
 const { requireAdmin } = require('../middleware/auth');
 
-// ============================================
+//============================================
 // SQL QUERIES ORGANIZED AT TOP
 // ============================================
 
